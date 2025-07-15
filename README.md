@@ -10,7 +10,8 @@ Usage of darkboss1-pishing for attacking targets without prior mutual consent is
 <br />
 
 ## Common Issue
-Sometimes Masked link is not generating properly. In that case we need to use VPN/proxy, then use maskphish to generate masked link.
+Sometimes Masked link is not generating properly. In that case we need to use VPN/proxy, then use darkboss1-pishing
+ to generate masked link.
 
 ## 💻 Installation 
 
