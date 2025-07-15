@@ -1,5 +1,5 @@
 #!/bin/bash
-# Bash Script for Hide Phishing URL Created by KP
+# Bash Script for Hide Phishing URL Created by darkboss1
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
@@ -11,13 +11,19 @@ url_checker() {
 }
 
 echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
-echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
-echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
-echo -e "\e[1;31;42m######│▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌▐ ▝▀▖▌ ▌│##### \e[0m"
-echo -e "\e[1;31;42m######│▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘│##### \e[0m"
+echo -e "\e[1;31;42m######│
+██████   █████  ██████  ██   ██ ██████   ██████  ███████ ███████  ██ 
+██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██    ██ ██      ██      ███ 
+██   ██ ███████ ██████  █████   ██████  ██    ██ ███████ ███████  ██ 
+██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██    ██      ██      ██  ██ 
+██████  ██   ██ ██   ██ ██   ██ ██████   ██████  ███████ ███████  ██                                                                                                                                        
+  │##### \e[0m"
+echo -e "\e[1;31;42m######││##### \e[0m"
+echo -e "\e[1;31;42m######││##### \e[0m"
+echo -e "\e[1;31;42m######││##### \e[0m"
 echo -e "\e[1;31;42m######└──────────────────────────┘##### \e[0m \n"
-echo -e "\e[40;38;5;82m Please Visit \e[30;48;5;82m https://www.kalilinux.in \e[0m"
-echo -e "\e[30;48;5;82m    Copyright \e[40;38;5;82m   JayKali \e[0m \n\n"
+echo -e "\e[40;38;5;82m Please Visit \e[30;48;5;82m https://www.serialkey.top \e[0m"
+echo -e "\e[30;48;5;82m    Copyright \e[40;38;5;82m   darkboss1 \e[0m \n\n"
 echo -e "\e[1;31;42m ### Phishing URL ###\e[0m \n"
 echo -n "Paste Phishing URL here (with http or https): "
 read phish
@@ -39,18 +45,18 @@ echo -en "\e[32m=>\e[0m "
 read words
 if [[ -z "$words" ]]; then
 echo -e "\e[31m[!] No words.\e[0m"
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating darkboss1 Link...\n"
 final=$mask@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the darkboss1 URL:\e[32m ${final} \e[0m\n"
 exit
 fi
 if [[ "$words" =~ " " ]]; then
 echo -e "\e[31m[!] Invalid words. Please avoid space.\e[0m"
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating darkboss1 Link...\n"
 final=$mask@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the darkboss1 URL:\e[32m ${final} \e[0m\n"
 exit
 fi
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating darkboss1 Link...\n"
 final=$mask-$words@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the darkboss1 URL:\e[32m ${final} \e[0m\n"
